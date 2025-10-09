@@ -1,0 +1,24 @@
+#wall{
+    background-color: black;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+
+}
+#floor{
+    background-color: bisque;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+}
+
+#spider{
+    z-index: 1;
+    left: 40%
+}
