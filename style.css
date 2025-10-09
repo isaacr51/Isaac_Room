@@ -10,6 +10,7 @@
 }
 #floor{
     background-color: bisque;
+    background-image: url(spider.png);
     bottom: 0px;
     left: 0px;
     position: absolute;
@@ -20,5 +21,15 @@
 
 #spider{
     z-index: 1;
-    left: 40%
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+
+
+}
+body
+{
+    color: white;
 }
